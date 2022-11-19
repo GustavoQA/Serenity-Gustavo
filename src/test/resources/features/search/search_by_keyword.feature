@@ -1,6 +1,7 @@
-Feature: Search by keyword
-
-  Scenario: Searching for a term
-    Given Sergey is on the DuckDuckGo home page
-    When he searches for "cucumber"
-    Then all the result titles should contain the word "cucumber"
+#language:es
+@PruebaSerenity
+Característica: Search by keyword
+  Escenario: Searching for a term
+    Dado Sergey is on the DuckDuckGo home page
+    Cuando he searches for "cucumber"
+    Entonces all the result titles should contain the word "cucumber"
